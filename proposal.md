@@ -1,5 +1,7 @@
 # A proposal for remote playback API for the HTMLMediaElement
 
+[A flow supported by Chrome on Android for default controls](http://avayvod.github.io/chrome-android-remote-playback.pdf)
+
 ```js
 
 // |remote| gathers all remote playback related methods together.
