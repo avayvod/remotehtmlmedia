@@ -15,7 +15,7 @@ interface RemotePlayback : EventTarget {
   // also called if the browser initiates the remote playback
   attribute EventHandler onchange;
 
-  // a complimentary field to the 
+  // a complimentary field to the |onchange| event.
   readonly attribute boolean isRemote;
 
   // starts the remote playback from the current position; UA shows the device
